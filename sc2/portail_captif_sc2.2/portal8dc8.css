@@ -1,0 +1,728 @@
+/**
+ * Global Cascading Style Sheet
+ * All styles used in the captive portal are defined here
+ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* HTML Body style */
+html {
+	/* Size */
+	height: 100%;
+}
+
+body {
+	/* Size */
+	height: 100%;
+	
+	/* Background */
+	background-image: url(resources/_images/gradient_slice.png);
+	background-repeat: repeat-x;
+	
+	/* Text */
+	font-family: 'Trebuchet MS';
+	font-size:12px;
+}
+
+img {
+	/* Borders */
+	border: none;
+}
+
+/* Container style */
+#container {
+	/* Size */
+	width: 760px;
+	height: auto !important;
+	min-height: 100%;
+	
+	/* Position */
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	
+	/* Background */
+	background-color: #FFFFFF;
+	background-image: url(resources/_images/planet.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+/* Header style */
+#header {
+	/* Size */
+	width: 100%;
+	height: 85px;
+	
+	/* Background */
+}
+
+/* Body style */
+#body {
+	/* Size */
+	width: 100%;
+	height: auto;
+	
+	/* Position */
+	position: relative;
+	padding-bottom: 30px; /* Must be the same height as the footer */
+}
+
+/* Footer style */
+#footer {
+	/* Size */
+	width: 100%;
+	height: 22px;
+	
+	/* Position */
+	position: absolute;
+	bottom: 0px;
+}
+
+/* Lang block style */
+#lang_block {
+	/* Position */
+	position: absolute;
+	top: 322px;
+	left: 619px;
+	z-index: 4;
+}
+
+#lang_block img {
+	height: 12px;
+}
+
+
+/* Reserved block style */
+#reserved_block {
+	/* Size */
+	width: 400px;
+	height: auto;
+	
+	/* Position */
+	margin-top: 358px;
+	margin-left: 322px;
+	margin-right: auto;
+	padding: 5px;
+	z-index: 3;
+	
+	/* Background */
+	background-color: #F6F7Fb;
+	
+	/* Borders */
+	border: solid 2px #98ACC7;
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari and chrome */
+	-khtml-border-radius: 10px; /* Linux browsers */
+	border-radius: 10px; /* CSS3 */
+	
+	/* Text */
+	font-size: 1em;
+	text-align: center;
+}
+
+#reserved_block form table {
+	width: 100%;
+}
+
+#reserved_block form table tr td {
+	width: 50%;
+	text-align: left;
+}
+
+/* Don't forget to modify on feedback javascript the bypass of IE browser problem */
+#reserved_block form table tr td:first-child {
+	text-align: right;
+}
+
+#reserved_block form table tr td[colspan="2"] {
+	text-align: center;
+}
+
+#reserved_block input, #reserved_block select {
+	width: 200px;
+	border: solid 1px #98ACC7;
+	color: #666666;
+	font-style: italic;
+	font-family: sans-serif;
+}
+
+#reserved_block input[type="checkbox"] {
+	height: auto;
+	width: auto;
+	border: 0px;
+}
+
+#reserved_block button {
+	width: 120px;
+	margin: 0px;
+	padding: 5px;
+	background-color: #000000;
+	border: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari and chrome */
+	-khtml-border-radius: 5px; /* Linux browsers */
+	border-radius: 5px; /* CSS3 */
+}
+
+#reserved_block button:hover {
+	background-color: #555555;
+	cursor: pointer;
+}
+
+#reserved_block button:focus {
+	background-color: #555555;
+}
+
+#reserved_block .title {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: left;
+}
+
+#reserved_block .subtitle {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: left;
+}
+
+#reserved_block .explain {
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: #494949;
+	font-size: 1em;
+	text-align: left;
+}
+
+#reserved_block .h-separator {
+	border-bottom: solid 1px #98acc7;
+	margin-bottom: 5px;
+}
+
+#reserved_block .label {
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-weight: bold;
+}
+
+#reserved_block .phone-prefix {
+	width: 50px;
+	float: left;
+}
+
+#reserved_block .phone-number {
+	width: 140px;
+	float: left;
+	margin-left: 8px;
+}
+
+#reserved_block form .phone-help table tr td {
+	text-align: left;
+	width: auto;
+	vertical-align: top;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 0.8em;
+}
+
+#reserved_block form .phone-help table tr td img {
+	/* Size */
+	height: 12px;
+}
+
+#reserved_block form .phone-help table tr td input {
+	/* Size */
+	height: 12px;
+}
+
+#reserved_block form .phone-help table tr td input.phone-prefix {
+	/* Size */
+	width: 25px;
+	float: none;
+}
+
+#reserved_block form .phone-help table tr td input.phone-number {
+	/* Size */
+	width: 70px;
+	float: none;
+	margin-left: auto;
+}
+
+#reserved_block span.field-state {
+	color: #666666;
+	font-style: italic;
+}
+
+#reserved_block td[colspan="2"].field-state {
+	text-align: right;
+}
+
+#reserved_block form table tr td.feedback {
+	text-align: left;
+	padding-left: 10px;
+}
+
+#reserved_block div.hoverLink {
+	border: solid 1px transparent;
+	cursor: pointer;
+}
+
+	#reserved_block div.hoverLink:hover {
+		border: solid 1px #98ACC7;
+		-moz-border-radius: 10px; /* Firefox */
+		-webkit-border-radius: 10px; /* Safari and chrome */
+		-khtml-border-radius: 10px; /* Linux browsers */
+		border-radius: 10px; /* CSS3 */
+	}
+	
+	#reserved_block div.hoverLink img {
+		height: 30px;
+	}
+
+	#reserved_block div.hoverLink table {
+		width: 100%;
+	}
+	
+	#reserved_block div.hoverLink td:first-child {
+		text-align: left;
+		width: 75px;
+	}
+
+#reserved_block #logonForm_socialNetworkChoice_grid {
+	margin-top: 20px;
+	text-align: center;
+}
+
+	#reserved_block #logonForm_socialNetworkChoice_grid .smallBox {
+		display:           inline-block;
+		width:             32px;
+		height:            32px;
+		background-repeat: no-repeat;
+		margin-right:      5px;
+		border-radius:     5px;
+		cursor:            pointer;
+		background-image:    url(resources/_images/social-sprite-32.png);
+		zoom: 1; /*specific to IE <= 7 to align social networks icons horizontally*/
+		*display: inline; /*specific to IE <= 7 to align social networks icons horizontally*/
+	}
+
+	#reserved_block #logonForm_socialNetworkChoice_grid div.twitterSmallBox {
+		background-position: 0px 0px;
+		background-color:    #39A9E0;
+	}
+
+	#reserved_block #logonForm_socialNetworkChoice_grid div.facebookSmallBox {
+		background-position: 0px -32px;
+		background-color:    #3B5998;
+	}
+
+	#reserved_block #logonForm_socialNetworkChoice_grid div.googleSmallBox {
+		background-position: 0px -96px;
+		background-color:    #D14836;
+	}
+
+	#reserved_block #logonForm_socialNetworkChoice_grid div.linkedinSmallBox {
+		background-position: 0px -160px;
+		background-color:    #007FB1;
+	}
+
+#reserved_block fieldset {
+	border: solid 1px #98acc7;
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari and chrome */
+	-khtml-border-radius: 10px; /* Linux browsers */
+	border-radius: 10px; /* CSS3 */
+}
+
+#reserved_block .helper {
+	cursor: pointer;
+	background-image: url(resources/_images/help.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-right: 10px;
+}
+
+#reserved_block legend {
+	margin-left: 15px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+#reserved_block .postalAddress table {
+	border-collapse: collapse;
+}
+
+#reserved_block .postalAddress table td:first-child {
+	padding-right: 1px;
+}
+
+#reserved_block .postalAddress table td {
+	padding-left:   1px;
+	padding-bottom: 2px;
+}
+
+#reserved_block .small-input {
+	width: 50px;
+}
+
+#reserved_block #manageAccountForm_devices_block .currentDevice {
+	outline-color: green;
+	outline-width: 2px;
+	outline-style: solid;
+}
+
+#reserved_block #manageAccountForm_devices_block .trashButton {
+	float: left;
+}
+
+#reserved_block #manageAccountForm_devices_block tbody > tr:first-child td {
+	border-bottom: solid 1px #98acc7;
+	margin-bottom: 5px;
+}
+
+#reserved_block #feedbackForm_postConnectRedirectDelay_block {
+	font-style: italic;
+}
+
+
+/*****************************************************************************/
+/*****                          Generic classes                          ****/
+/***************************************************************************/
+.error, .caution {
+	color: red;
+	font-weight: bold;
+}
+
+.light-caution {
+	color: red;
+}
+
+.warning {
+	color: orange;
+	font-weight: bold;
+}
+
+.info {
+	color: green;
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.cursor-wait {
+	cursor: progress;
+}
+
+div.trashButton {
+	width:            15px;
+	background-image: url(resources/_images/trash.png);
+	height:           15px;
+	background-size:  15px 15px;
+	display:          inline-block;
+	margin-left:      2px;
+	margin-right:     2px;
+	cursor:           pointer;
+}
+
+/*****************************************************************************/
+/*****                          Editor CSS                               ****/
+/***************************************************************************/
+
+
+#editor_img_slice {
+	position: absolute;
+	top: 311px;
+	left: 0px;
+	z-index: 1;
+}
+
+#editor_text_banner {
+	position: absolute;
+	top: 257px;
+	left: 128px;
+	width: 100%;
+	z-index: 2;
+}
+
+
+#editor_text_NomPortail {
+	position: absolute;
+	top: 321px;
+	left: 46px;
+	z-index: 2;
+}
+
+#editor_img_GIE-Iris {
+	position: absolute;
+	top: 171px;
+	left: 494px;
+	z-index: 1;
+}
+#reserved_block input[type=radio] {
+	height: auto;
+	width: auto;
+	border: 0px;
+}
+#reserved_block .birth-date-edit {
+	width: 180px;
+	float: left;
+}
+#reserved_block .birth-date-calendar {
+	width: 16px;
+	height:17px;
+	float: left;
+	margin-left: 3px;
+}
+#reserved_block span.radio-label {
+	color: #666666;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: left;
+}
+#reserved_block input[type=radio] {
+	height: auto;
+	width: auto;
+	border: 0px;
+}
+#reserved_block .birth-date-edit {
+	width: 180px;
+	float: left;
+}
+#reserved_block .birth-date-calendar {
+	width: 16px;
+	height:17px;
+	float: left;
+	margin-left: 3px;
+}
+#reserved_block span.radio-label {
+	color: #666666;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: left;
+}
+#reserved_block input[type=radio] {
+	height: auto;
+	width: auto;
+	border: 0px;
+}
+#reserved_block .birth-date-edit {
+	width: 180px;
+	float: left;
+}
+#reserved_block .birth-date-calendar {
+	width: 16px;
+	height:17px;
+	float: left;
+	margin-left: 3px;
+}
+#reserved_block span.radio-label {
+	color: #666666;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: left;
+}
+/*****************************************************************************/
+/*****                     Modal dialog window style                    *****/
+/***************************************************************************/
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4); /* Black with opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	position: relative;
+	background-color: white;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	top: 40%;
+	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:40%; opacity:1}
+}
+
+@keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:40%; opacity:1}
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+	padding: 2px 16px;
+	background-color: white;
+	color: black;
+	border-top: 1px solid #aaaaaa;
+}
+
+#reserved_block #logonForm_socialNetworkChoice_openid_grid {
+	margin-top: 20px;
+	text-align: center;
+	display: inline-block;
+}
+	#reserved_block #logonForm_socialNetworkChoice_openid_grid div.openidconnectSmallBox {
+		background-image: url(resources/_images/openid8e8b.png?TAG_PRODUCT_BUILD_TIMESTAMP);
+		background-size: 100% 100%;
+		background-color: #f6f6f6;
+		width: 48px;
+		height: 48px;
+		background-repeat: no-repeat;
+		margin-right: 5px;
+		border-radius: 5px;
+		cursor: pointer;
+		margin: 0 auto;
+	}
+
+	#reserved_block #logonForm_socialNetworkChoice_openid_grid div.openidDiv {
+		display: inline-block;
+		width: 150px;
+	}
+
+	#reserved_block #logonForm_socialNetworkChoice_openid_grid span.openidSpan {
+		display: inline-block;
+		font-weight: bold;
+		color: #363C8A;
+		margin: 5%;
+		cursor: pointer;
+	}
+
+#logonForm_wispr_grid {
+	margin-top: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+#logonForm_wispr_grid div.wisprSmallBox {
+	background-size: 100% 100%;
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0 auto;
+	background-image: url(resources/_images/wispr8e8b.png?TAG_PRODUCT_BUILD_TIMESTAMP);
+	background-color: #82C8DF;
+}
+
+#logonForm_wispr_grid div.wisprDiv {
+	display: inline-block;
+	width: 150px;
+}
+
+#logonForm_wispr_grid span.wisprSpan {
+	display: inline-block;
+	font-weight: bold;
+	color: #363C8A;
+	margin: 5%;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#editor_img_U_enseigne {
+	position: absolute;
+	top: 164px;
+	left: 45px;
+	z-index: 1;
+}
+
+
+
+
+
+#editor_img_U_log {
+	position: absolute;
+	top: 165px;
+	left: 310px;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+#editor_img_Banniere {
+	position: absolute;
+	top: -87px;
+	left: 0px;
+	z-index: 1;
+}
+

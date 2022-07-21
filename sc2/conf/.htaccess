@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase / 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#INSERT#
+	
+RewriteRule . http://portail.captif-u.com/index.php [L]

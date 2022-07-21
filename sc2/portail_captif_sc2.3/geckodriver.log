@@ -1,0 +1,52 @@
+1653478549611	geckodriver	INFO	Listening on 127.0.0.1:34935
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653478549652	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "44069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemLqg3r"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653478593086	geckodriver	INFO	Listening on 127.0.0.1:35683
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653478593128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58957" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesCWQY5"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653478600153	geckodriver	INFO	Listening on 127.0.0.1:50077
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653478600197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "53815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9b5kBj"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653478865051	geckodriver	INFO	Listening on 127.0.0.1:56349
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653478865096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "59097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSKWzeF"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480499664	geckodriver	INFO	Listening on 127.0.0.1:41815
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480499716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileknCylM"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480521548	geckodriver	INFO	Listening on 127.0.0.1:44937
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480521592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56023" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledKVDIU"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480527668	geckodriver	INFO	Listening on 127.0.0.1:55491
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480527712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46469" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileO6iMkm"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480608561	geckodriver	INFO	Listening on 127.0.0.1:44031
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480608643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezsF4g6"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480650541	geckodriver	INFO	Listening on 127.0.0.1:37051
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480650584	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54617" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaM3LhU"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480709186	geckodriver	INFO	Listening on 127.0.0.1:49129
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480709228	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "50179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRVQ1du"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480752410	geckodriver	INFO	Listening on 127.0.0.1:43051
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480752452	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "59797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilednhr2B"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480960288	geckodriver	INFO	Listening on 127.0.0.1:47663
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653480960332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--no-sandbox" "--remote-debugging-port" "55429" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXI0dLb"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653481015650	geckodriver	INFO	Listening on 127.0.0.1:52343
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)
+1653481015692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--no-sandbox" "--headless" "--disable-gpu" "--window-size=1920,1080" "--remote-debugging-port" "56179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA0pZJF"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/thomas/.Xauthority which is owned by thomas.)

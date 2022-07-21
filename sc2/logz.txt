@@ -1,0 +1,2 @@
+['192.168.1.56']
+[['apple', 'icloud', 'outlook', 'office365', 'twimg', 'app-measurement', 'https://app-measurement', 'twitter', 'gstatic', 't', 'liveperson', 'sosh', 'woopic', 'orange', 'tiqcdn', 'google-analytics', 'googleoptimize', 'usabilla', 'doubleclick', 'privacy-center', 'pki', 'fti', 'lpsnmedia']]

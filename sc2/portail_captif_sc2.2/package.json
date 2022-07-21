@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "driver": "^1.0.0",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.1.2"
+  }
+}
